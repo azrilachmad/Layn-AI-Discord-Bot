@@ -38,7 +38,7 @@ jobs:
 
       # https://github.com/sigstore/cosign-installer
       - name: Install cosign
-        uses: sigstore/cosign-installer@v2
+        uses: sigstore/cosign-installer@v3
         with:
           cosign-release: 'v1.13.1'
 
@@ -132,7 +132,7 @@ jobs:
 
       # https://github.com/sigstore/cosign-installer
       - name: Install cosign
-        uses: sigstore/cosign-installer@v2
+        uses: sigstore/cosign-installer@v3
         with:
           cosign-release: 'v1.13.1'
 
